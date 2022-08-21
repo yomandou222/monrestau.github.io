@@ -1,0 +1,35 @@
+/*style formulaire de connexion*/
+#formulaire {
+	width: 100%;
+	margin-top: 30px;
+	background: #1f4690;
+	padding: 40px;
+}
+form {
+	max-width: 500px;
+	background-color: #231955;
+	margin: auto;
+}
+#formulaire h2 {
+	color: #ffe5b4;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding-top: 30px;
+}
+#formulaire label {
+	font-size: 16px;
+	padding: 10px 20px;
+	color: #fff;
+}
+#formulaire input {
+	margin: 0 20px;
+	width: 450px;
+	padding: 5px 0;
+}
+#formulaire button {
+	background-color: blue;
+	color: #fff;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SOUARE RESTAURANT : Vente en ligne : connexion</title>
+	<!-- Liaison fichier bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container-fluid">
+		<!-- Debut menu de navigation -->
+		<nav class="navbar navbar-expand-lg bg-dark navbar-light">
+				            <div class="container-fluid">
+				                <a class="navbar-brand text-primary" href="#">D-s: RESTAURANT</a>
+				                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				                    aria-expanded="false" aria-label="Toggle navigation">
+				                    <span class="navbar-toggler-icon"></span>
+				                </button>
+				                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				                        <li class="nav-item">
+				                            <a class="nav-link active text-white" aria-current="page " href="vente.html">ACCEUIL</a>
+				                        </li>
+				                        <li class="nav-item dropdown">
+				                            <a class="nav-link dropdown-toggle text-white " href="#" role="button"
+				                                data-bs-toggle="dropdown" aria-expanded="false">
+				                                E-Commerce
+				                            </a>
+				                            <ul class="dropdown-menu">
+				                                <li><a class="dropdown-item" href="restau.html">Restaurant</a></li>
+				                                <li><a class="dropdown-item" href="electronic.html">Electronique</a></li>
+				                                <li>
+				                                    <hr class="dropdown-divider">
+				                                </li>
+				                            </ul>
+				                        </li>
+				                        <li class="nav-item">
+				                            <a class="nav-link active text-white" aria-current="page" href="blog.html">BLOG</a>
+				                        </li>
+				                        <li class="nav-item">
+				                            <a class="nav-link active text-white" aria-current="page"
+				                                href="register.html">INSCRIPTION</a>
+				                        </li>
+				                        <li class="nav-item">
+				                            <a class="nav-link active text-white" aria-current="page" href="login.html">CONNEXION</a>
+				                        </li>
+				                        <li class="nav-item">
+				                            <a class="nav-link active text-white" aria-current="page" href="apropos.html">A PROPOS</a>
+				                        </li>
+				                    </ul>
+				                    <form class="d-flex" role="search">
+				                      <input class="form-control me-2" type="search" placeholder="recherche" aria-label="Search">
+				                      <button class="btn btn-outline-success" type="submit">Navigue</button>
+				                    </form>
+				                </div>
+				            </div>
+				        </nav>
+		<!-- Fin menu de navigation -->
+
+		 <!-- Debut formulaire de connexion -->
+		 <div id="formulaire" class="w-50 mx-auto bg-light mt-5">
+		 	<form class="p-4">
+		 		<h2 class="text-center text-uppercase pt-2 text-primary">Inscrivez-vous</h2>
+		 		<div class="mb-3 mt-3">
+		 			<label class="label-control">Nom d'utilisateur</label>
+		 			<input class="form-control" type="text" placeholder="Entrer nom d'utilisateur ou email">
+		 		</div>
+		 		<div class="mb-3 mt-3">
+		 			<label class="label-control">Prenom</label>
+		 			<input class="form-control" type="text" placeholder="Entrer votre Prenom">
+		 		</div>
+		 		<div class="mb-3 mt-3">
+		 			<label class="label-control">Nom</label>
+		 			<input class="form-control" type="text" placeholder="Entrer votre Nom">
+		 		</div>
+		 		<div class="mb-3 mt-3">
+		 			<label class="label-control">Téléphone</label>
+		 			<input class="form-control" type="text" placeholder="Entrer votre Numéro">
+		 		</div>
+		 		<div class="mb-3 mt-3">
+		 			<label class="label-control">Adresse</label>
+		 			<input class="form-control" type="text" placeholder="Entrer votre Adresse">
+		 		</div>
+		 		<div class="mb-3 mt-3">
+		 			<label class="label-control">Sexe</label>
+		 			<select class="form-select">
+		 				<option disabled>Sexe</option>
+		 				<option>Masculin</option>
+		 				<option>Féminin</option>
+		 			</select>
+		 		</div>
+		 		<div class="mb-3 mt-3">
+		 			<label class="label-control">Date de naissance</label>
+		 			<input class="form-control" type="date">
+		 		</div>
+		 		<div class="mb-3 mt-3">
+		 			<label class="label-control">Région</label>
+		 			<select class="form-select">
+		 				<option disabled>Selectionner une région</option>
+		 				<option>Conakry</option>
+		 				<option>Kindia</option>
+		 				<option>Boké</option>
+		 				<option>Mamou</option>
+		 				<option>Labé</option>
+		 				<option>Farana</option>
+		 				<option>Kankan</option>
+		 				<option>N'Zérékoré</option>
+		 			</select>
+		 		</div>
+		 		<div class="mb-3 mt-3">
+		 			<label class="label-control">Mot de passe</label>
+		 			<input class="form-control" type="password" placeholder="Entrer votre mot de passe">
+		 		</div>
+		 		<div class="mb-3 mt-3">
+		 			<label class="label-control">Confirmer mot de passe</label>
+		 			<input class="form-control" type="password" placeholder="Confirmer votre mot de passe">
+		 		</div>
+		 		
+		 		<div class="mb-3 mt-3">
+		 			<button class="btn btn-primary">S'inscrire</button>
+		 		</div>
+		 		
+		 	</form>
+		 </div>
+		 <!-- Fin formulaire de connexion -->
+
+	</div>
+
+</body>
+</html>

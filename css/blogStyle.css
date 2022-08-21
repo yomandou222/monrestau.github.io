@@ -1,0 +1,182 @@
+/*Step 1: Create the basic structure for making sidebars*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	background: #f5f6fa;
+}
+.wrapper .sidebar{
+	background: green;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	padding: 20px 0;
+}
+.wrapper .sidebar .profile{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+/*Step 2: Add a profile image*/
+.wrapper .sidebar .profile img{
+	display: block;
+	width: 150px;
+	height: 150px;
+    border-radius: 60%;
+    border: 10px solid rgb(32, 44, 69);
+	margin: 0 auto;
+}
+
+
+/*Step 3: Add titles and descriptions*/
+.wrapper .sidebar .profile h3{
+	color: #fff;
+	margin: 10px 0 5px;
+}
+.wrapper .sidebar .profile p{
+	color: rgb(206, 240, 253);
+	font-size: 14px;
+}
+
+
+/*Step 5: Design menu items with CSS code*/
+.wrapper .sidebar ul li a{
+	display: block;
+	padding: 13px 30px;
+	border-bottom: 1px solid #10558d;
+	color: rgb(241, 237, 237);
+	font-size: 16px;
+	position: relative;
+}
+.wrapper .sidebar ul li a .icon{
+	color: #dee4ec;
+	width: 30px;
+	display: inline-block;
+}
+
+
+/*Step 6: Add hover effect to menu link*/
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+	color: #0c7db1;
+	background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+	display: block;
+}
+
+
+/*Step 7: Add navigation bar*/
+.wrapper .section{
+	width: calc(100% - 250px);
+	margin-left: 250px;
+}
+.wrapper .section .top_navbar{
+	background: red;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+ 
+}
+.wrapper .section .top_navbar .hamburger a{
+	font-size: 28px;
+	color: #f4fbff;
+}
+.wrapper .section .top_navbar .hamburger a:hover{
+	color: #a2ecff;
+}
+
+
+
+.wrapper .section .banner {
+	background: blue;
+	height: 220px;
+	align-items: center;
+	padding: 0 30px;
+	color: #fff;
+}
+.wrapper .section .banner .titre {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 2em;
+}
+
+.wrapper .section .banner .button {
+	padding-top: 30px;
+	margin: auto;
+	width: 20%;
+}
+.wrapper .section .banner button {
+	height: 6vh;
+	font-size: 1.5em;
+	color: rgb(42, 75, 124);
+}
+.wrapper .section .banner button:hover {
+	background: rgb(42, 75, 124);
+	color: #fff;
+}
+
+
+.wrapper .section .content {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+	margin-top: 10px;
+	color: #000;
+}
+.wrapper .section .content .img_blog {
+	width: 500px;
+}
+.wrapper .section .content img {
+	width: 100%;
+}
+.wrapper .section .content .article {
+	margin-left: 20px;
+}
+
+
+.wrapper .section .contact {
+	background: blue;
+	height: 200px;
+	align-items: center;
+	padding: 20px;
+	margin-top: 10px;
+	color: #fff;
+}
+.wrapper .section .contact .form_contact {
+	text-align: center;
+	font-size: 1.3em;
+}
+.wrapper .section .contact .formulaire {
+	text-align: center;
+}
+.wrapper .section .contact .formulaire input,
+.wrapper .section .contact .formulaire button {
+	font-size: 1.3em;
+}
+
+
+.wrapper .section .footer {
+	background: rgb(32, 44, 69);
+	height: 50px;
+	padding: 0 30px;
+	padding-top: 10px;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+}
+
